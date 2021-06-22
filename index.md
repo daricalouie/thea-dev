@@ -6,7 +6,7 @@
 </form>
 </div>
 
-<div id="done"  style="visibility: hidden">
+<div id="done"  style="display: none">
     <h2>Password accepted.</h2>
 Press x to close this window and proceed through door
 </div>
