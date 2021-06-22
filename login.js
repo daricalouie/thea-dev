@@ -14,6 +14,9 @@ loginButton.addEventListener("click", (e) => {
         donePanel.style.display ='block';
         loginPanel.style.display = 'none';
         wrongPanel.style.display = 'none';
+        fetch("https://gather.town/api/getMap?spaceId=bLC4E96xZ4dVKnTF\\testing&apiKey=doa91a6eaEZV6r5P&mapId=empty-room-small-brick").then(function (response) {
+    return response.json();
+  })
     } else {
       wrongPanel.style.display = 'block';
     }
