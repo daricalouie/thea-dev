@@ -3,6 +3,7 @@ const loginButton = document.getElementById("submit");
 
 loginButton.addEventListener("click", (e) => {
     e.preventDefault();
+    console.log("I'm clicked!")
     const password = loginForm.password.value.toLowerCase();
 
     if ( password === test) {
