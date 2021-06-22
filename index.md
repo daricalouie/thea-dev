@@ -4,6 +4,7 @@
     <input type="password" id="password" name="password"/>
     <input type="submit" id="submit" value="Submit"/>
 </form>
+    <p id="wrong"  style="display: none">Incorrect password. This door is only for authorized Nomsanto personnel</p>
 </div>
 
 <div id="done"  style="display: none">
