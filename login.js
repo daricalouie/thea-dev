@@ -11,7 +11,7 @@ loginButton.addEventListener("click", (e) => {
 
     if ( password === "test") {
         donePanel.style.display ='block';
-        loginPanel.style.display = 'hidden';
+        loginPanel.style.display = 'none';
     } else {
       alert("Incorrect password. This door is only for authorized Nomtanso personnel");
     }
