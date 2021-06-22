@@ -2,6 +2,7 @@ const loginForm = document.getElementById("login");
 const loginButton = document.getElementById("submit");
 const loginPanel = document.getElementById("panel");
 const donePanel = document.getElementById("done");
+const wrongPanel = document.getElementById("wrong");
 
 
 loginButton.addEventListener("click", (e) => {
@@ -12,7 +13,8 @@ loginButton.addEventListener("click", (e) => {
     if ( password === "test") {
         donePanel.style.display ='block';
         loginPanel.style.display = 'none';
+        wrongPanel.style.display = 'none';
     } else {
-      document.getElementById("wrong").style.display = 'block';
+      wrongPanel.style.display = 'block';
     }
 })
