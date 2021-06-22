@@ -6,7 +6,7 @@ loginButton.addEventListener("click", (e) => {
     console.log("I'm clicked!")
     const password = loginForm.password.value.toLowerCase();
 
-    if ( password === test) {
+    if ( password === "test") {
       alert("Password accepted. Press x to close this and leave through door");
     } else {
       alert("Incorrect password. This door is only for authorized Nomtanso personnel");
