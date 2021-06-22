@@ -8,6 +8,6 @@
 
 <div id="done"  style="display: none">
     <h2>Password accepted.</h2>
-Press x to close this window and proceed through door
+Close this window and proceed through door
 </div>
 <script src="login.js">{newline}</script>
