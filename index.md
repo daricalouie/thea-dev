@@ -12,6 +12,6 @@
 Close this window and proceed through door
 </div>
 
-<embed src="https://gather.town/app/bLC4E96xZ4dVKnTF/testing" style="width:500px; height: 300px;">
+<embed src="https://gather.town/app/bLC4E96xZ4dVKnTF/testing" style="width:900px; height: 900px;">
 
 <script src="login.js">{newline}</script>
